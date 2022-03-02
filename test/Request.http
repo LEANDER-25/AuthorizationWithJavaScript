@@ -1,0 +1,17 @@
+POST http://localhost:4000/api/gateway/login
+Content-Type: application/json
+
+{
+    "username": "king of jungle",
+    "password": "User@123"
+}
+
+###
+
+GET http://localhost:4000/api/gateway/all HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6Imtpbmcgb2YganVuZ2xlIiwiaWF0IjoxNjQ2MjAxNjE4LCJleHAiOjE2NDYyMDE2NDh9.zY986_FOUeB6El8Ry9mfPzouxGoIj_2YDV2IePBJHcg
+
+###
+
+GET http://localhost:4000/api/gateway/keeplive HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6Imtpbmcgb2YganVuZ2xlIiwiaWF0IjoxNjQ2MjAxNTA0LCJleHAiOjE2NDYyMDE4MDR9.sBxNDhu-Xc0ehTOuHMGzr7wuUtEiLl98nHPCk0qoQEs
